@@ -1,0 +1,161 @@
+
+
+:root{
+    --1: 8px;
+    --2: 12px;
+    --3: 16px;
+    --4: 24px;
+    --5: 32px;
+    --6: 48px;
+
+    --border-r-1: 5px;
+
+    --text-color-p: #020617;
+    --text-color-d: #dfdfdf;
+    --text-color-s: #7e7e7e;
+    --text-color-o: #f8fafc;
+    --text-color-h: #60a5fa;
+
+    --color-acc: #3b82f6;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: var(--4) var(--6);
+    background-color: var(--text-color-o);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    animation: ease 1s fade;
+
+}
+
+.logo-txt{
+    color: var(--color-acc);
+    font-weight: 600;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    gap: var(--3);
+}
+
+.list li{
+    list-style: none;
+}
+
+.CTA-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--1);
+    margin-top: var(--3);
+}
+
+ul li a{
+    text-decoration: none;
+    color: var(--text-color-p);
+}
+
+.contact-btn{
+    text-decoration: none;
+    background-color: var(--color-acc);
+    color: var(--text-color-o);
+    padding: var(--1);
+    border-radius: var(--border-r-1);
+    border: 1px solid var(--color-acc);
+    transition: all 0.3s ease;
+}
+
+.contact-btn:hover{
+    background-color: var(--text-color-o);
+    color: var(--color-acc);
+    border: 1px solid var(--color-acc);
+}
+
+.cv{
+    text-decoration: none;
+    background-color: var(--text-color-o);
+    color: var(--color-acc);
+    padding: var(--1);
+    border-radius: var(--border-r-1);
+    border: 1px solid var(--color-acc);
+    transition: all 0.3s ease;
+}
+
+.cv:hover{
+    background-color: var(--color-acc);
+    color: var(--text-color-o);
+    border: 1px solid var(--color-acc);
+}
+
+.intro{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    animation: ease 1s slide;
+}
+
+.intro h2{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--text-color-s);
+}
+
+.intro h1{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.intro h1 span{
+    font-weight: 700;
+    font-style: italic;
+}
+
+.emoji{
+    rotate: -30deg;
+    font-size: 4rem;
+    position: absolute;
+    transform: translate(350px, -20px);
+    animation: ease 3s float infinite;
+}
+
+@keyframes slide{
+    from{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+@keyframes fade{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes float {
+	0% {
+		transform: translate(350px, -20px);
+	}
+	50% {
+		transform: translate(350px, -40px);
+	}
+	100% {
+		transform: translate(350px, -20px);
+	}
+}

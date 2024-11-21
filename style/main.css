@@ -1,0 +1,338 @@
+:root{
+    --1: 8px;
+    --2: 12px;
+    --3: 16px;
+    --4: 24px;
+    --5: 32px;
+    --6: 48px;
+    --7: 64px;
+
+    --border-r-1: 5px;
+    --border-r-2: 10px;
+
+    --text-color-p: #020617;
+    --text-color-s: #7e7e7e;
+    --text-color-o: #f8fafc;
+    --text-color-h: #60a5fa;
+    --text-color-card: #f8f8f8;
+    --border-color-card: #80808086;
+    --fill-color-card: #e8e8e8;
+
+    --color-acc: #3b82f6;
+}
+
+ .about,  .skills, .exploration{
+    margin-top: 8rem;
+}
+
+.about{
+    margin: auto;
+    width: 80%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: var(--5);
+}
+
+.left-side{
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+
+    animation: ease slide-right;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.foto{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: var(--border-r-2);
+}
+
+.foto img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: var(--border-r-2);
+}
+
+
+.right-side{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.description{
+    width: 100%;
+    border-radius: var(--border-r-2);
+    animation: ease slide-top;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.description p{
+    font-size: 1.105rem;
+}
+
+.details{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: var(--2);
+}
+
+.details h1{
+    font-weight: 600;
+}
+
+.exp{
+    background-color: var(--color-acc);
+    border-radius: var(--border-r-2);
+    padding: var(--2) var(--7) var(--2) var(--2);
+    color: var(--text-color-o);
+
+    animation: ease slide;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.project{
+    background-color: var(--color-acc);
+    border-radius: var(--border-r-2);
+    padding: var(--2) var(--7) var(--2) var(--2);
+
+    color: var(--text-color-o);
+
+    animation: ease slide-left;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.details h3{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.skills{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--2);
+}
+
+.skills h1{
+    font-size: 1.7rem;
+    font-weight: 600;
+
+    animation: ease slide-top;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.skill-cards{
+    display: flex;
+    flex-direction: row;
+    gap: var(--3);
+
+    animation: ease slide-left;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 90px;
+    height: 170px;
+    border: 2px solid var(--text-color-s);
+    border-radius: 45px 45px;
+    padding: var(--1);
+    margin-top: var(--5);
+}
+
+.card img{
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.card-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: var(--1);
+}
+
+.card-text h2{
+    color: var(--color-acc);
+}
+
+.card-text p{
+    font-size: .7rem;
+    font-weight: 500;
+    margin-top: -8px;
+}
+
+.exploration{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--2);
+}
+
+.exploration-title{
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-bottom: var(--4);
+
+    animation: ease slide-left;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.project-cards{
+    width: 80%;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: var(--2);
+    padding: var(--4);
+
+    background-color: var(--text-color-card);
+    border-radius: var(--border-r-2);
+    border: 1.5px solid var(--border-color-card);
+
+    animation: ease slide-right;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+.project-left{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-desc h4{
+    margin-top: var(--4);
+}
+
+.project-desc h1{
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.open-button a{
+    background-color: var(--color-acc);
+    color: var(--text-color-o);
+    padding: var(--1) var(--2);
+    border-radius: var(--border-r-1);
+}
+
+.open-button a span{
+    height: 100%;
+    text-decoration: none;
+}
+
+.open-button a span svg{
+    height: 100%;
+    transform: translateY(10px);
+}
+
+.project-right{
+    background-color: var(--fill-color-card);
+    width: 65%;
+    height: 100%;
+    padding: var(--2);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: var(--1);
+
+    border-radius: 0 var(--2) var(--2) 0;
+}
+
+.project-right img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: var(--border-r-2);
+}
+
+.project-right .column-top{
+    height: 65%;
+}
+
+.project-right .column-bottom{
+    height: 35%;
+    display: flex;
+    flex-direction: row;
+    gap: var(--2);
+}
+
+@keyframes slide{
+    from{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+@keyframes slide-left{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@keyframes slide-right{
+    from{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@keyframes slide-top{
+    from{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
