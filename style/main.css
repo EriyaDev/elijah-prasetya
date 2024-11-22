@@ -201,6 +201,7 @@
 }
 
 .exploration-title{
+    text-align: center;
     font-size: 1.7rem;
     font-weight: 600;
     margin-bottom: var(--4);
@@ -213,10 +214,12 @@
 .project-cards{
     width: 80%;
     height: 600px;
+
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    
     gap: var(--2);
     padding: var(--4);
 
@@ -251,6 +254,7 @@
     color: var(--text-color-o);
     padding: var(--1) var(--2);
     border-radius: var(--border-r-1);
+    text-decoration: none;
 }
 
 .open-button a span{

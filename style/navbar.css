@@ -61,8 +61,14 @@ nav{
 ul li a{
     text-decoration: none;
     color: var(--text-color-p);
+    transition: .3s ease-in-out;
 }
 
+ul li a:hover{
+    text-decoration: none;
+    color: var(--color-acc);
+}
+    
 .contact-btn{
     text-decoration: none;
     background-color: var(--color-acc);
@@ -103,6 +109,7 @@ ul li a{
     align-items: center;
     text-align: center;
     animation: ease 1s slide;
+    animation: float 3s ease-in-out infinite;
 }
 
 .intro h2{
@@ -150,12 +157,12 @@ ul li a{
 
 @keyframes float {
 	0% {
-		transform: translate(350px, -20px);
+		transform: translate(0, -0);
 	}
 	50% {
-		transform: translate(350px, -40px);
+		transform: translate(0, -5px);
 	}
 	100% {
-		transform: translate(350px, -20px);
+		transform: translate(0, 0);
 	}
 }
