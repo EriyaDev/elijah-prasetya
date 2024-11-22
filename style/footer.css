@@ -110,3 +110,18 @@ hr{
     font-weight: 500;
     color: var(--text-color-s);
 }
+
+@media screen and (max-width: 768px) {
+    .bottomSectionContact{
+        flex-direction: column;
+    }
+
+    .bottomSectionContact .email{
+        width: 100%;
+    }
+
+    .bottomSectionContact .social-media-icon{
+        margin-top: var(--2);
+        width: 100%;
+    }
+}

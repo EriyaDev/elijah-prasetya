@@ -144,8 +144,11 @@
 }
 
 .skill-cards{
+    width: 90%;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     gap: var(--3);
 
     animation: ease slide-left;
@@ -300,6 +303,61 @@
     gap: var(--2);
 }
 
+
+@media screen and (max-width: 768px){
+    .about{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .left-side{
+        width: 50%;
+        height: auto;
+    }
+    .details{
+        margin-top: var(--2);
+        flex-direction: column;
+    }
+
+    .exp{
+        animation: ease slide-left;
+        animation-timeline: view();
+        animation-range: entry 0% cover 40%;
+    }
+
+    .skill-cards{
+        width: 60%;
+    }
+
+    .project-cards{
+        flex-direction: column-reverse;
+        height: 700px;
+    }
+
+    .project-left{
+        width: 90%;
+    }
+
+    .project-desc{
+        width: 100%;
+    }
+
+    .project-right{
+        width: 100%;
+        background: none;
+        padding: 0;
+        margin-bottom: -100px;
+    }
+
+    .project-right .column-bottom img{
+        display: none;
+    }
+}
+
+
+
+/* Animation */
+
 @keyframes slide{
     from{
         opacity: 0;
@@ -340,3 +398,15 @@
         transform: translateY(0px);
     }
 }
+
+@keyframes slide-left-res{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(-50px);
+    }
+}
+
