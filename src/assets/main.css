@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply bg-primary-color;
+  font-display: swap;
+}
+
+/* Global */
+.section-container {
+  @apply mx-auto max-w-[90%] py-14 lg:py-20 2xl:max-w-screen-desktop;
+}
+
+.button-primary {
+  @apply h-fit w-fit rounded-md bg-secondary-color px-9 py-2.5 font-geist font-medium text-text-secondary-color;
+}
+
+.button-secondary {
+  @apply h-fit rounded-md border border-border-color bg-none px-5 py-2.5 font-geist font-semibold text-text-primary-color hover:scale-105;
+}
+
+.logo-text {
+  @apply text-2xl font-bold font-geist uppercase text-text-primary-color;
+}
+
+.title {
+  @apply text-text-primary-color uppercase font-medium font-geist;
+}
+
+.text {
+  @apply text-text-primary-color font-geist uppercase font-normal;
+}
+
+/* Navbar */
+header {
+  @apply fixed left-1/2 z-50 w-full -translate-x-1/2 bg-primary-color;
+}
+
+.navbar {
+  @apply z-50 flex w-full flex-row items-center justify-between bg-primary-color py-5;
+}
+
+.navbar a,
+.nav-mobile a {
+  @apply font-geist font-medium uppercase text-text-primary-color hover:opacity-65 transition-all duration-300;
+}
+
+.nav-link-container {
+  @apply hidden flex-row gap-10 lg:flex;
+}
+
+.button-container {
+  @apply flex flex-row items-center gap-3;
+}
+
+.navbar-button-primary {
+  @apply rounded-sm bg-accent-color px-8 py-2 font-medium text-white hover:brightness-110;
+}
+
+.nav-mobile {
+  @apply fixed left-0 right-0 top-14 -z-10 h-auto w-full rounded-b-xl bg-primary-color px-5 pb-5 pt-10 duration-1000 ease-in-out lg:hidden;
+}
+
+.nav-mobile ul {
+  @apply flex h-full flex-col items-start justify-center gap-3 px-5 text-xl text-text-primary-color;
+}
+
+.nav-mobile ul li {
+  @apply transition-all hover:translate-x-1;
+}
+
+.nav-hidden {
+  @apply -translate-y-full;
+}
+
+/* HERO SECTION */
+#hero {
+  @apply h-screen w-screen flex justify-center items-center
+  lg:h-full mx-auto max-w-[90%] py-14 lg:py-20 2xl:max-w-screen-desktop;
+}
+
+#hero-content-container {
+  @apply grid grid-cols-2 lg:grid-cols-10 grid-rows-[auto_auto_auto_auto] xl:grid-rows-4 gap-5 w-full;
+}
+
+.hero-name {
+  @apply text-7xl md:text-[120px] lg:text-[140px] xl:text-[170px]  desktop:text-[200px] leading-[.8] font-geist font-medium text-text-primary-color;
+}
+
+/* .hero-name > div {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+} */
+
+.hero-desc {
+  @apply text-lg md:text-xl xl:text-2xl desktop:text-3xl uppercase font-geist font-light text-text-primary-color;
+}
+
+.marquee-text {
+  @apply font-geist font-medium bg-secondary-color text-text-secondary-color text-2xl uppercase;
+}
+
+.about-me-title,
+.about-img,
+#desc-text-container,
+.about-desc {
+  will-change: transform, opacity;
+}
