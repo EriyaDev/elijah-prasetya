@@ -34,7 +34,7 @@ onMounted(() => {
     </div>
     <a
       href="https://anisensei-ten.vercel.app"
-      class="aspect-video explore-card rounded-2xl h-[400px] mx-auto bg-blue-200 sticky top-40 group flex justify-center items-end"
+      class="aspect-video explore-card rounded-2xl h-auto lg:h-[400px] mx-auto bg-blue-200 sticky top-40 group flex justify-center items-end"
     >
       <img
         :src="Explore1Gif"
@@ -53,7 +53,7 @@ onMounted(() => {
     </a>
     <a
       href="https://anisensei-ten.vercel.app"
-      class="aspect-video explore-card rounded-2xl h-[400px] mx-auto bg-blue-200 sticky top-40 group flex justify-center items-end"
+      class="aspect-video explore-card rounded-2xl h-auto lg:h-[400px] mx-auto bg-blue-200 sticky top-40 group flex justify-center items-end"
     >
       <img
         :src="Explore1Gif"
@@ -72,7 +72,7 @@ onMounted(() => {
     </a>
     <a
       href="https://anisensei-ten.vercel.app"
-      class="aspect-video explore-card rounded-2xl h-[400px] mx-auto bg-blue-200 sticky top-40 group flex justify-center items-end"
+      class="aspect-video explore-card rounded-2xl h-auto lg:h-[400px] mx-auto bg-blue-200 sticky top-40 group flex justify-center items-end"
     >
       <img
         :src="Explore1Gif"
@@ -91,7 +91,7 @@ onMounted(() => {
     </a>
     <a
       href="https://anisensei-ten.vercel.app"
-      class="aspect-video explore-card rounded-2xl h-[400px] mx-auto bg-blue-200 sticky top-40 group flex justify-center items-end"
+      class="aspect-video explore-card rounded-2xl h-auto lg:h-[400px] mx-auto bg-blue-200 sticky top-40 group flex justify-center items-end"
     >
       <img
         :src="Explore1Gif"
