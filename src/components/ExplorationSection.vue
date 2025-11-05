@@ -5,6 +5,8 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 import { SplitText } from 'gsap/SplitText'
 import ScrollToPlugin from 'gsap/ScrollToPlugin'
 
+import Explore1Gif from '../assets/videos/explore-1.gif?url'
+
 gsap.registerPlugin(ScrollTrigger, SplitText, ScrollToPlugin)
 
 onMounted(() => {
@@ -15,7 +17,7 @@ onMounted(() => {
       start: 'top bottom',
       end: 'center 30%',
       scrub: true,
-      // markers: true,
+      // markers: false,
     },
     filter: 'blur(10px)',
     ease: 'linear',
@@ -30,10 +32,93 @@ onMounted(() => {
         Exploration Lab
       </h1>
     </div>
-    <div class="w-full h-96 lg:h-screen bg-blue-200 sticky top-40">Card</div>
-    <div class="w-full h-96 lg:h-screen bg-red-200 sticky top-40">Card</div>
-    <div class="w-full h-96 lg:h-screen bg-green-200 sticky top-40">Card</div>
-    <div class="w-full h-96 lg:h-screen bg-purple-200 sticky top-40">Card</div>
+    <a
+      href="https://anisensei-ten.vercel.app"
+      class="aspect-video explore-card rounded-2xl h-[400px] mx-auto bg-blue-200 sticky top-40 group flex justify-center items-end"
+    >
+      <img
+        :src="Explore1Gif"
+        alt="exploration-1"
+        class="w-[90%] object-cover rounded-t-sm"
+        loading="lazy"
+      />
+      <div
+        class="inset-0 absolute bg-black/50 z-10 opacity-0 group-hover:opacity-100 transition-all rounded-2xl"
+      ></div>
+      <div
+        class="absolute bottom-0 left-0 right-0 p-5 z-20 opacity-0 group-hover:opacity-100 transition-all"
+      >
+        <h2 class="text-white text-3xl font-medium font-geist bg-none">AniSensei - Search Anime</h2>
+      </div>
+    </a>
+    <a
+      href="https://anisensei-ten.vercel.app"
+      class="aspect-video explore-card rounded-2xl h-[400px] mx-auto bg-blue-200 sticky top-40 group flex justify-center items-end"
+    >
+      <img
+        :src="Explore1Gif"
+        alt="exploration-1"
+        class="w-[90%] object-cover rounded-t-sm"
+        loading="lazy"
+      />
+      <div
+        class="inset-0 absolute bg-black/50 z-10 opacity-0 group-hover:opacity-100 transition-all rounded-2xl"
+      ></div>
+      <div
+        class="absolute bottom-0 left-0 right-0 p-5 z-20 opacity-0 group-hover:opacity-100 transition-all"
+      >
+        <h2 class="text-white text-3xl font-medium font-geist bg-none">AniSensei - Search Anime</h2>
+      </div>
+    </a>
+    <a
+      href="https://anisensei-ten.vercel.app"
+      class="aspect-video explore-card rounded-2xl h-[400px] mx-auto bg-blue-200 sticky top-40 group flex justify-center items-end"
+    >
+      <img
+        :src="Explore1Gif"
+        alt="exploration-1"
+        class="w-[90%] object-cover rounded-t-sm"
+        loading="lazy"
+      />
+      <div
+        class="inset-0 absolute bg-black/50 z-10 opacity-0 group-hover:opacity-100 transition-all rounded-2xl"
+      ></div>
+      <div
+        class="absolute bottom-0 left-0 right-0 p-5 z-20 opacity-0 group-hover:opacity-100 transition-all"
+      >
+        <h2 class="text-white text-3xl font-medium font-geist bg-none">AniSensei - Search Anime</h2>
+      </div>
+    </a>
+    <a
+      href="https://anisensei-ten.vercel.app"
+      class="aspect-video explore-card rounded-2xl h-[400px] mx-auto bg-blue-200 sticky top-40 group flex justify-center items-end"
+    >
+      <img
+        :src="Explore1Gif"
+        alt="exploration-1"
+        class="w-[90%] object-cover rounded-t-sm"
+        loading="lazy"
+      />
+      <div
+        class="inset-0 absolute bg-black/50 z-10 opacity-0 group-hover:opacity-100 transition-all rounded-2xl"
+      ></div>
+      <div
+        class="absolute bottom-0 left-0 right-0 p-5 z-20 opacity-0 group-hover:opacity-100 transition-all"
+      >
+        <h2 class="text-white text-3xl font-medium font-geist bg-none">AniSensei - Search Anime</h2>
+      </div>
+    </a>
+    <!-- <div class="aspect-video explore-card rounded-2xl h-[400px] mx-auto bg-red-200 sticky top-40">
+      Card
+    </div>
+    <div class="aspect-video explore-card rounded-2xl h-[400px] mx-auto bg-green-200 sticky top-40">
+      Card
+    </div>
+    <div
+      class="aspect-video explore-card rounded-2xl h-[400px] mx-auto bg-purple-200 sticky top-40"
+    >
+      Card
+    </div> -->
   </div>
 </template>
 

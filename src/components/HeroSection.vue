@@ -16,7 +16,7 @@
         >CONTACT ME</a
       >
     </div>
-    <div class="marquee-container absolute bottom-0 left-0 right-0 py-4 bg-secondary-color">
+    <div class="marquee-container absolute -bottom-24 left-0 right-0 py-4 bg-secondary-color">
       <div
         class="marquee-content bg-secondary-color flex flex-row items-center overflow-hidden whitespace-nowrap"
       >

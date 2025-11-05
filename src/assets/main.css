@@ -4,7 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+body {
   @apply bg-primary-color;
   font-display: swap;
 }
@@ -107,4 +107,24 @@ header {
 #desc-text-container,
 .about-desc {
   will-change: transform, opacity;
+}
+
+@keyframes appear {
+  0% {
+    scale: 1;
+    rotate: -2deg;
+  }
+  50% {
+    scale: 0.9;
+    rotate: 2deg;
+  }
+  100% {
+    scale: 1;
+  }
+}
+
+.explore-card {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
 }
