@@ -102,12 +102,14 @@ header {
   @apply font-geist font-medium bg-secondary-color text-text-secondary-color text-2xl uppercase;
 }
 
+
 .about-me-title,
 .about-img,
 #desc-text-container,
 .about-desc {
   will-change: transform, opacity;
 }
+
 
 @keyframes appear {
   0% {
@@ -127,4 +129,29 @@ header {
   animation: appear linear;
   animation-timeline: view();
   animation-range: entry 0% cover 40%;
+}
+
+/* Preloader */
+.circle-cursor {
+  @apply ease-out fixed left-0 top-0 z-50 w-6 h-6 rounded-full border-2 border-white pointer-events-none;
+}
+
+.preloader, .preloader-2, .preloader-3 {
+  @apply fixed inset-0 z-50 flex items-center justify-center bg-primary-color;
+}
+
+.preloader-2{
+  @apply !bg-slate-200 !z-40;
+}
+
+.preloader-3{
+  @apply !bg-slate-500 !z-30;
+}
+
+.loader-content{
+  @apply flex flex-col items-center justify-center gap-5;
+}
+
+.spinner {
+  @apply h-16 w-16 bg-text-primary-color rounded-md;
 }

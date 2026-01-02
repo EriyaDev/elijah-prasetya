@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <header class="top-0 z-50">
+  <header class="top-0 z-30">
     <nav class="section-container navbar">
       <div class="logo">
         <div class="logo-text">ELIJAH PRASETYA</div>
