@@ -69,6 +69,7 @@ onMounted(() => {
     ease: 'power4.inOut',
     duration: 2,
     stagger: 0.2,
+    delay: 3.8,
   })
 
   gsap.from(splitDesc.lines, {
@@ -77,7 +78,7 @@ onMounted(() => {
     ease: 'power4.inOut',
     duration: 1,
     stagger: 0.2,
-    delay: 1,
+    delay: 5.2,
   })
 
   gsap.from('.marquee-container', {
@@ -86,7 +87,7 @@ onMounted(() => {
     ease: 'power4.inOut',
     duration: 1,
     stagger: 0.2,
-    delay: 1.2,
+    delay: 5.4,
   })
 
   gsap.from('.button-cv', {
@@ -95,7 +96,7 @@ onMounted(() => {
     ease: 'power4.inOut',
     duration: 1,
     stagger: 0.2,
-    delay: 1,
+    delay: 5.2,
   })
 
   // if(xPercent == )
