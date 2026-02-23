@@ -53,6 +53,7 @@ onMounted(() => {
   <ExplorationSection></ExplorationSection>
 
   <div id="circle-cursor" class="circle-cursor"></div>
+  <!-- <div id="small-cursor" class="small-cursor"></div> -->
 </template>
 
 <style scoped></style>
