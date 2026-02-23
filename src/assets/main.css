@@ -134,6 +134,10 @@ header {
   @apply hidden lg:block ease-out fixed left-0 top-0 z-50 w-6 h-6 rounded-full border-2 border-white pointer-events-none;
 }
 
+.small-cursor{
+  @apply hidden lg:block ease-out fixed left-0 top-0 z-50 w-2 h-2 rounded-full bg-white pointer-events-none;
+}
+
 .preloader,
 .preloader-2,
 .preloader-3 {
