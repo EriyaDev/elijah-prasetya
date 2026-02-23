@@ -75,7 +75,7 @@ onMounted(() => {
 <template>
   <div class="preloader">
     <div class="loader-content">
-      <div class="spinner"></div>
+      <!-- <div class="spinner"></div> -->
       <!-- <p class="text-text-primary-color text-xl font-geist">LOADING...</p> -->
     </div>
     <p
