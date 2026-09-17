@@ -1,0 +1,43 @@
+/* Host Grotesk Local Fonts */
+@font-face {
+  font-family: 'Host Grotesk';
+  src: url('../fonts/Host_Grotesk/HostGrotesk-VariableFont_wght.ttf') format('truetype-variations'),
+       url('../fonts/Host_Grotesk/HostGrotesk-VariableFont_wght.ttf') format('truetype');
+  font-weight: 300 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Host Grotesk';
+  src: url('../fonts/Host_Grotesk/HostGrotesk-Italic-VariableFont_wght.ttf') format('truetype-variations'),
+       url('../fonts/Host_Grotesk/HostGrotesk-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 300 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@import 'tailwindcss';
+
+:root {
+  --fs-huge: clamp(3rem, 28vw, 27rem);
+  --fs-label: clamp(0.7rem, 0.9vw, 0.875rem); /* date label */
+  --fs-body: clamp(0.85rem, 1.1vw, 1rem); /* description text */
+}
+
+@theme {
+  --font-grotesk: 'Host Grotesk', sans-serif;
+
+  --color-primary: #014baa;
+  --color-secondary: #c4bcb0;
+  --color-background: #fefefe;
+}
+.text-huge {
+  font-size: var(--fs-huge);
+}
+.text-label {
+  font-size: var(--fs-label);
+}
+.text-body {
+  font-size: var(--fs-body);
+}
