@@ -1,5 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+import FooterSection from './components/sections/FooterSection.vue';
+import logoEriya from './assets/logo-eriya.png';
 </script>
 
 <template>
@@ -23,9 +25,11 @@ import { RouterLink, RouterView } from 'vue-router'
             <!-- Logo -->
             <a
               href="#"
-              class="flex items-center gap-2 shrink-0 px-4 py-2 bg-background border border-gray-200"
+              class="flex items-center gap-2 shrink-0 px-4 py-2 bg-background border border-gray-200 hover:brightness-95 transition-all"
             >
-              <svg
+              <img class="h-8 rounded-sm" :src="logoEriya" alt="Eriya">
+              <p class="text-lg font-grotesk font-bold text-gray-900">Elijah Emmanuel</p>
+              <!-- <svg
                 id="logo"
                 width="137"
                 height="24"
@@ -53,7 +57,7 @@ import { RouterLink, RouterView } from 'vue-router'
                     d="M40 0C40 3.86525 36.8662 6.99866 33.0004 6.99866L26 6.9999C26.7867 6.9999 27.5053 6.55222 27.8514 5.84583L28.9998 3.50057C30.0489 1.35903 32.2259 0.00140065 34.6108 0.0012436L40 0ZM40 11.0076C40 14.8694 36.8661 18 33.0004 18L22 17.9925C22.7868 17.9925 23.5053 17.5453 23.8515 16.8395L24.9998 14.4963C26.0489 12.3567 28.2259 11.0003 30.6108 11.0001L40 11.0076ZM22.583 33C20.1978 33 18.0209 34.3563 16.9717 36.4958L15.8223 38.8386C15.4803 39.5356 14.7755 39.9799 14 39.9906L33 40C36.866 40 40 36.8698 40 33.0085L22.583 33ZM27.583 22C25.1978 22 23.0209 23.3563 21.9717 25.4956L20.8223 27.8384C20.4802 28.5353 19.7755 28.9796 19 28.9902L33 29C36.866 29 40 25.8699 40 22.0088L27.583 22Z"
                   />
                 </g>
-              </svg>
+              </svg> -->
             </a>
 
             <!-- Desktop Nav -->
@@ -142,6 +146,7 @@ import { RouterLink, RouterView } from 'vue-router'
 
     <RouterView />
   </div>
+  <FooterSection/>
 </template>
 
 <style scoped></style>
