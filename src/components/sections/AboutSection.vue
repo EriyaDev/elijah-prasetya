@@ -54,7 +54,7 @@ onMounted(() => {
     <!-- Divider -->
     <div class="relative">
       <div id="about-progress-bar" class="w-0 h-px bg-gray-900 mb-16 absolute left-0 top-0"></div>
-      <div class="w-full h-px bg-gray-200 mb-16"></div>
+      <div class="w-full h-px bg-gray-200 mb-4 md:mb-16"></div>
     </div>
 
     <!-- Content row -->
