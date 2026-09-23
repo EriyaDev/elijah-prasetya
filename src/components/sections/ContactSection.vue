@@ -135,13 +135,13 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
 // DATA — replace with your real details
-const email = 'hello@yourdomain.com'
+const email = 'elijahprasetya@gmail.com'
 
 const channels = [
-  { name: 'WhatsApp', handle: 'Chat directly', icon: 'whatsapp-icon', url: 'https://wa.me/628xxxxxxxxxx' },
-  { name: 'LinkedIn', handle: '/in/username', icon: 'linkedin-icon', url: 'https://linkedin.com/in/username' },
-  { name: 'GitHub', handle: '@username', icon: 'github-icon', url: 'https://github.com/username' },
-  { name: 'Instagram', handle: '@username', icon: 'instagram-icon', url: 'https://instagram.com/username' },
+  { name: 'WhatsApp', handle: 'Chat directly', icon: 'whatsapp-icon', url: 'https://wa.me/6285155339188' },
+  { name: 'LinkedIn', handle: '/in/elijah-prasetya', icon: 'linkedin-icon', url: 'https://linkedin.com/in/elijah-prasetya' },
+  { name: 'GitHub', handle: '@eriyadev', icon: 'github-icon', url: 'https://github.com/EriyaDev' },
+  { name: 'Instagram', handle: '@namasaya.el', icon: 'instagram-icon', url: 'https://instagram.com/namasaya.el' },
 ]
 
 // COPY EMAIL
