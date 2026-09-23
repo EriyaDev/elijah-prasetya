@@ -153,10 +153,10 @@ const navLinks = [
 ]
 
 const socials = [
-  { label: 'GitHub', url: 'https://github.com/username' },
-  { label: 'LinkedIn', url: 'https://linkedin.com/in/username' },
-  { label: 'Instagram', url: 'https://instagram.com/username' },
-  { label: 'WhatsApp', url: 'https://wa.me/628xxxxxxxxxx' },
+  { label: 'GitHub', url: 'https://github.com/EriyaDev' },
+  { label: 'LinkedIn', url: 'https://linkedin.com/in/elijah-prasetya' },
+  { label: 'Instagram', url: 'https://instagram.com/namasaya.el' },
+  { label: 'WhatsApp', url: 'https://wa.me/6285155339188' },
 ]
 
 // Giant name rows: height = how much of the letters each row reveals (in em).
