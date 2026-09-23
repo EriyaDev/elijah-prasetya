@@ -57,7 +57,7 @@
         </span>
 
         <span
-          class="text-sm sm:text-base text-center text-gray-600 transition-colors duration-300 group-hover:text-gray-900"
+          class="text-sm line-clamp-1 sm:text-base text-center text-gray-600 transition-colors duration-300 group-hover:text-gray-900"
         >
           {{ tech.name }}
         </span>
