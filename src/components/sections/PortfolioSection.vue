@@ -4,7 +4,7 @@
     class="w-full min-h-screen bg-white px-6 sm:px-10 py-14 font-grotesk border-t-transparent border border-gray-200"
   >
     <!-- HEADER -->
-    <div class="max-w-3xl mx-auto text-center flex flex-col items-center mb-16">
+    <div id="porto-header" class="max-w-3xl mx-auto text-center flex flex-col items-center mb-4 md:mb-16">
       <!-- Badge -->
       <div class="inline-flex items-center gap-2 border border-gray-200 px-4 py-2 mb-6">
         <span class="w-2.5 h-2.5 rounded-sm bg-primary"></span>
