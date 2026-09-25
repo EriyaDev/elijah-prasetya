@@ -15,7 +15,7 @@ const props = defineProps({
     :class="`card-portfolio card-${props.order} w-[calc(100%-2rem)] sm:w-11/12 lg:w-5xl max-w-5xl left-1/2 -translate-x-1/2`"
   >
     <div
-      class="bg-white border border-black/15 rounded-sm flex flex-col justify-between h-[540px] sm:h-[520px] md:h-[520px] overflow-hidden group hover:-translate-y-2 hover:shadow-md hover:shadow-black/5 transition-all"
+      class="bg-white border border-black/15 rounded-sm flex flex-col justify-between h-[470px] sm:h-[520px] md:h-[520px] overflow-hidden group hover:-translate-y-2 hover:shadow-md hover:shadow-black/5 transition-all"
     >
       <div class="flex flex-col-reverse md:flex-row justify-between h-full">
         <div class="flex flex-col justify-between h-full w-full md:w-1/2 p-5 sm:p-8">
