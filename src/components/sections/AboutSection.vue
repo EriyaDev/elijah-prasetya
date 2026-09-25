@@ -14,7 +14,7 @@ onMounted(() => {
   })
 
   tl.to('#about-progress-bar', { ease: 'power2.out', width: '33%' })
-    .to('.about-text-1', { opacity: 1, duration: 0.75 })
+    .from('.about-text-1', { opacity: 1, duration: 0.75 })
     .to('.about-text-1', {
       opacity: 0,
       y: -10,
