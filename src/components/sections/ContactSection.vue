@@ -138,7 +138,7 @@ gsap.registerPlugin(ScrollTrigger)
 const email = 'elijahprasetya@gmail.com'
 
 const channels = [
-  { name: 'WhatsApp', handle: 'Chat directly', icon: 'whatsapp-icon', url: 'https://wa.me/6285155339188?text=Halo!%20saya%20tertarik%20untuk%20bekerja%20sama%20dengan%20anda.' },
+  { name: 'WhatsApp', handle: 'Chat directly', icon: 'whatsapp-icon', url: 'https://wa.me/6285155339188?text=Halo!%20saya%20melihat%20portofolio%20Anda%20dan%20tertarik%20untuk%20mendiskusikan%20peluang%20kerja%20sama%20terkait%20proyek...' },
   { name: 'LinkedIn', handle: '/in/elijah-prasetya-41b103299', icon: 'linkedin-icon', url: 'https://linkedin.com/in/elijah-prasetya-41b103299' },
   { name: 'GitHub', handle: '@eriyadev', icon: 'github-icon', url: 'https://github.com/EriyaDev' },
   { name: 'Instagram', handle: '@namasaya.el', icon: 'instagram-icon', url: 'https://instagram.com/namasaya.el' },
